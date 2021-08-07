@@ -68,7 +68,7 @@ export const getStaticPaths: GetStaticPaths<StaticPaths> = async () => {
   }
 }
 
-// markdownのメタデータ記法部分を変換してPropsにする
+// markdownのメタデータ記法部分を変換してPropsにする + OGPを生成する
 export const getStaticProps: GetStaticProps<StaticProps, StaticPaths> = async (
   context,
 ) => {
